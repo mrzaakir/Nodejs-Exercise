@@ -1,0 +1,19 @@
+{
+  "name": "exercise-1",
+  "version": "1.0.0",
+  "description": "Road to full-stack dev",
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/mrzaakir/Nodejs-Exercise.git"
+  },
+  "license": "ISC",
+  "author": "ZeCky-TaAni",
+  "type": "commonjs",
+  "main": "exercise-1.js",
+  "scripts": {
+    "dev": "nodemon --watch exercise-1.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
