@@ -11,7 +11,7 @@
   "type": "commonjs",
   "main": "exercise-1.js",
   "scripts": {
-    "dev": "nodemon --watchesss exercise-1.js"
+    "dev": "nodemon --watches exercise-1.js"
   },
   "dependencies": {
     "express": "^5.2.1"
