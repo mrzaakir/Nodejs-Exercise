@@ -11,9 +11,12 @@
   "type": "commonjs",
   "main": "exercise-1.js",
   "scripts": {
-    "dev": "nodemon --watch exercise-1.js"
+    "dev": "nodemon --watch exercise-1.js",
+    "books-api": "node Exercise-2-books-api/index.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "mongoose": "^8.10.1"
   }
 }
