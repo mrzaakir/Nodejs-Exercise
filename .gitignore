@@ -25,3 +25,6 @@ build/
 # Operating system files
 .DS_Store
 Thumbs.db
+# npm run dev
+# npm run books-api
+# npm run auth-api
