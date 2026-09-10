@@ -26,7 +26,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# NPM scripts to run the application
+#For NPM scripts to run the application
 
 # npm run dev
 # npm run books-api
