@@ -12,11 +12,14 @@
   "main": "exercise-1.js",
   "scripts": {
     "dev": "nodemon --watch exercise-1.js",
-    "books-api": "node Exercise-2-books-api/index.js"
+    "books-api": "node Exercise-2-books-api/index.js",
+    "auth-api": "node Exercise-3-Auth-API/index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^5.2.1",
-    "mongoose": "^8.10.1"
+    "mongoose": "^8.10.1",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
