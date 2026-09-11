@@ -13,13 +13,25 @@
   "scripts": {
     "dev": "nodemon --watch exercise-1.js",
     "books-api": "node Exercise-2-books-api/index.js",
-    "auth-api": "node Exercise-3-Auth-API/index.js"
+    "auth-api": "node Exercise-3-Auth-API/index.js",
+    "finance-api": "node Exercise-4-Personal-Finance-API/index.js",
+    "finance-seed": "node Exercise-4-Personal-Finance-API/seed.js",
+    "test": "node --test Exercise-4-Personal-Finance-API/tests/api.test.js",
+    "start": "node Exercise-4-Personal-Finance-API/index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^5.2.1",
     "mongoose": "^8.10.1",
     "bcryptjs": "^3.0.2",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "cloudinary": "^2.6.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "zod": "^3.24.2"
   }
 }
