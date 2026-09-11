@@ -31,3 +31,14 @@ Thumbs.db
 # npm run dev
 # npm run books-api
 # npm run auth-api
+# npm run finance-api
+# npm test
+# npm run finance-seed
+
+
+# checking http locals........
+# API: http://localhost:5000
+# Health check: http://localhost:5000/api
+# Swagger docs: http://localhost:5000/docs
+# MongoDB: connected
+# Local config created in .env
